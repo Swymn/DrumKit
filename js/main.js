@@ -4,7 +4,7 @@
  * @param {*} sound 
  */
 function play(sound) {
-    new Audio("../sounds/" + sound + ".mp3").play();
+    new Audio("sounds/" + sound + ".mp3").play();
 }
 
 /**
